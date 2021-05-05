@@ -20,6 +20,7 @@ public class MainClass {
         builder.addEventListeners(new MessageLog());
         builder.addEventListeners(new Couting());
         builder.addEventListeners(new Ready());
+        builder.addEventListeners(new Profile());
         builder.build();
     }
 }
